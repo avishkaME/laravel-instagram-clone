@@ -18,5 +18,16 @@
             <div><a href="">avishkaMe.net</a></div>
         </div>
     </div>
+    <div class="row pt-4">
+        <div class="col-4">
+            <img src="/svg/a.jpg" style="max-height: 300px; min-width:300px" alt=""  class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="/svg/a.jpg" style="max-height: 300px; min-width:300px" alt="" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="/svg/a.jpg" style="max-height: 300px; min-width:300px" alt="" class="w-100">
+        </div>
+    </div>
 </div>
 @endsection
