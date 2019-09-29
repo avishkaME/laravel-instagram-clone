@@ -31,3 +31,6 @@ Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
 Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.update');
 
 Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
+
+Route::post('/follow/{user}', 'FollowsController@store');
+
